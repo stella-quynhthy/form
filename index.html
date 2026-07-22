@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="myForm">
+        First Name: <input type="text" name="fname"/><br>
+        <br>
+        Last Name: <input type="text" name="lname"/><br>
+        <br>
+        Password: <input type="password"/><br>
+        <br>
+        Description: <textarea rows="4" cols="50"></textarea><br>
+        <br>
+        Date of Birth: <input type="date" name = "dob"/><br>
+        <br>
+        Gender: <input type="radio" name="gender" value="male"/>Male
+        <input type="radio" name="gender" value="female"/>Female<br>
+        <br>
+        Programming Languages You Know: <input type="checkbox" value="on">Python
+        <input type="checkbox" value="on">JavaScript
+        <input type="checkbox"value="on">Python
+        <input type="checkbox" value="on">HTML
+        <input type="checkbox" value="on">Scratch<br>
+        <br>
+        Country: <select name="dropdown">
+            <option value="usa">USA</option>
+            <option value="mexico">Mexico</option>
+            <option value="canada">Canada</option>
+        </select><br>
+        <br>
+        <input type="file"name="fileupload"accept=".pdf"><br>
+        <br>
+        <input type="submit" value="Submit"/>
+
+    </form>
+</body>
+</html>
